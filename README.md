@@ -1,4 +1,13 @@
 # Mask Galaxy Book laptop
+
+一、galaxybook_mask 如何工作？
+运行 bat 脚本，通过修改注册表的值来伪装为三星 GalaxyBook 笔记本
+
+二、3 种不同版本的脚本区别：
+GalaxyBookMask.bat: Startup version 即开机自启动，但是每次都需要点击“是”来授权运行此脚本。如果不是每次都需要使用三星笔记，不推荐。
+GalaxyBookMask.no.startup.bat 即不开机自启动，生效时间是直到关机，重启后失效。除非需要多次打开退出三星笔记，否则不推荐。
+samsungnotes-directlaunch.bat 不开机启动，生效时间是三星笔记启动到退出，相当于三星笔记的启动入口，每次只需要点击此脚本即完成伪装和启动三星笔记的流程，推荐。
+
 This .bat script will allow you to mimic your windows pc as a Galaxy Book laptop, this is usually used to bypass Samsung's restriction on some applications such as Samsung Notes by modifying the registry. _Third-party antivirus applications such as Kaspersky and Bitfinder detecting the .bat file as a threat, it is a false positive! Just whitelist it or modify the registry yourself if that is the case._ [This is a continued project from obrobrio200, Samsung-Quick-Share-4-All](https://github.com/obrobrio2000/Samsung-Quick-Share-4-All)
 
 <img src="https://preview.redd.it/nzxqcqw9dyib1.png?width=778&format=png&auto=webp&s=493855bde83d0712952a36d6a5a8ab8a5f34693c" width="678" height="578"> 
